@@ -1,17 +1,17 @@
-#Test Coverage Analyzer
+# Test Coverage Analyzer
 
-##Introduction
+## Introduction
 This project is a comprehensive tool to analyse a provided test suite for
 a piece of software. The analysis covers two key white-box testing metrics: statement coverage
 and branch coverage. The aim is to assess the efficacy and thoroughness of the test suite in detecting
 faults and ensuring robustness in the software.
 
-##Objectives
+## Objectives
 • Implement a tool that takes a series of given test inputs and runs them on a program.
 • Report the statement coverage and branch coverage for the program when run using the series
 of test inputs.
 
-##Requirements
+## Requirements
 1. Statement Coverage
 Objective: Determine the percentage of executable statements in the software that are executed by
 the test cases in the test suite.
@@ -19,7 +19,7 @@ the test cases in the test suite.
 Objective: Identify and report the number of branches through the program’s control flow graph that
 are covered by the test suite.
 
-##Input Specifications
+## Input Specifications
 The program take 2 command-line arguments:
 1. The path to a Python script
 2. The path to a directory containing a set of input (.in) files
